@@ -43,3 +43,5 @@ const isAnagram = function(s, t) {
     return true
 };
 
+
+Use hashmap if other objects other than the 26 alphabets is involved

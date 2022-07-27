@@ -21,27 +21,25 @@ Space Complexity: O(1)
 
 Ask questions like, can we assume that all characters are lowercase?
 why is space complexity 0(1)?
+"a" = 97
+"b" = 122
+const isAnagram = function(s, t) {
+    if(s.length !== t.length){
+       return false
+       }
 
-var isAnagram = function(s, t) {
-  var lenA = s.length;
-  var lenB = t.length;
-  var map = Array(26);
-  var index = 0;
-  var base = 'a'.charCodeAt(0);
-
-  if (lenA !== lenB) return false;
-
-  for (var i = 0; i < lenA; i++) {
-    index = s[i].charCodeAt(0) - base;
-    if (!map[index]) map[index] = 0;
-    map[index]++;
-  }
-
-  for (var j = 0; j < lenB; j++) {
-    index = t[j].charCodeAt(0) - base;
-    if (!map[index]) return false;
-    map[index]--;
-  }
-
-  return true;
+    const arr1 = new Array(26).fill(0);
+    for(let i = 0; i < s.length ; i++){
+      let index = s[i].charCodeAt(0) - 'a'.charCodeAt(0);
+      let index2 = t[i].charCodeAt(0)-'a'.charCodeAt(0)
+         arr1[index]++;
+         arr1[index2]--;
+        }
+     for(const val of arr1){
+         if(val !== 0){
+             return false
+         }
+     } 
+    return true
 };
+

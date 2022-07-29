@@ -1,0 +1,41 @@
+Time Complexity : n*mlog(m)
+Space Complexity : o(n)
+
+const groupAnagrams = function(strs) {
+    const storeAnagram = {};
+    
+    const sortedStrs = strs.map(word=> word.split('').sort().join(''));
+    
+    for(let i = 0; i < strs.length; i++){
+        
+        if(!storeAnagram[sortedStrs[i]]){
+            storeAnagram[sortedStrs[i]] = [strs[i]]
+            
+        }else{
+            storeAnagram[sortedStrs[i]].push(strs[i])
+        }
+            
+        }
+    
+    
+    return Object.values(storeAnagram);
+};
+
+
+Time Complexity : n*m
+Space Complexity : o(n)
+
+const groupAnagrams = function(strs) {
+    const storeAnagram = {};
+    const primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101];
+    const sortedStrs = strs.map(word=> word.split('').reduce((total,char)=> total*primes[char.charCodeAt(0) - 'a'.charCodeAt(0)],1));
+    for(let i = 0; i < strs.length; i++){    
+        if(!storeAnagram[sortedStrs[i]]){
+            storeAnagram[sortedStrs[i]] = [strs[i]]
+            
+        }else{
+            storeAnagram[sortedStrs[i]].push(strs[i])
+        }            
+        }   
+    return Object.values(storeAnagram);
+};

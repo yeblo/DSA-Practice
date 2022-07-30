@@ -1,16 +1,16 @@
 Time Complexity = O(N^2)
 Space Complexity = 0(N)
-const threeSum = function(nums) {
+var threeSum = function(nums) {
     
-   nums.sort();
+   nums.sort((a,b)=> a - b);
     
-    const res =[];
+    let res =[];
     
 for(let i=0 ;i< nums.length -2; i++){
     
     let left = i+1;
     let right = nums.length - 1;
-    
+    if (i > 0 && nums[i] === nums[i-1]) continue;
      while(left < right){
     
         if(nums[i] + nums[left] + nums[right] === 0){
@@ -29,6 +29,6 @@ for(let i=0 ;i< nums.length -2; i++){
     
 }
  
-    return [...new Set(res)];
+    return res;
     
 };

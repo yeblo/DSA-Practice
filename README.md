@@ -8,4 +8,4 @@ Things to note
 * Pointers help when you dont want to store values in a new data structure
 * using primes and reduce for multiplcation when dealing with group anagrams
 * Object.values(values) in js
-
+* is sorting required?

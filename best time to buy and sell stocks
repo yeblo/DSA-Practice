@@ -1,0 +1,14 @@
+
+var maxProfit = function(prices) {
+    
+    let buy = 0;
+    let max = 0;
+    
+    for (let i = 1; i < prices.length; i++){
+           max = Math.max(max, (prices[i] - prices[buy]))
+           if(prices[buy] > prices[i]){
+               buy = i
+           }
+        }
+    return max;
+};

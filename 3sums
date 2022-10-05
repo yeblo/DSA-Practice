@@ -1,5 +1,5 @@
-Time Complexity = O(N^2)
-Space Complexity = 0(N)
+// Time Complexity = O(N^2)
+// Space Complexity = 0(N)
 var threeSum = function(nums) {
     
    nums.sort((a,b)=> a - b);

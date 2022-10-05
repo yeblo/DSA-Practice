@@ -1,0 +1,5 @@
+Methods i should be familiar with
+
+Array
+    - Some - returns boolean based on the filter i assign to it. Great for comparing teo arrays.
+    

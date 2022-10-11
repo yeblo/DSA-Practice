@@ -1,5 +1,37 @@
 Methods i should be familiar with
 
 Array
-    - Some - returns boolean based on the filter i assign to it. Great for comparing teo arrays.
+    - Some - returns boolean based on the filter i assign to it. Great for comparing two arrays.
     
+
+
+
+Notes on Trees
+
+Trees
+    -Leaves
+    -Root
+    -Parent 
+    =Child
+
+Binary Tree
+-Each Node can only have 0,1 or 2 nodes
+-Each child can only have one parent
+
+Perfect Binary Tree
+- A node has zero or 2 children
+
+Full Binary Tree
+
+
+Binary Search Teee
+O(log n) -> Insert, look up, delete
+-Good at searching and great for comparing things
+-Helps preserves relation ship
+Rule of BST
+All values in the  right must be greater than all values in tht left
+
+Ways to balance a search tree
+Balance vs unbalance
+-Unbalance trees are 0(n)
+

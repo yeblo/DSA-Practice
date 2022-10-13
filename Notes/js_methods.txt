@@ -6,3 +6,9 @@ Array
 
 String
     - charCodeAt(i)
+    - For string to integer conversion, use
+        - parseInt for integer math 
+        - Number (number.isInteger())to check if is a number
+        - !isNaN (checks if it is not a number)
+        - isfinite
+

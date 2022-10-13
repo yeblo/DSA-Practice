@@ -1,11 +1,3 @@
-Methods i should be familiar with
-
-Array
-    - Some - returns boolean based on the filter i assign to it. Great for comparing two arrays.
-    
-
-
-
 Notes on Trees
 
 Trees
@@ -35,3 +27,32 @@ Ways to balance a search tree
 Balance vs unbalance
 -Unbalance trees are 0(n)
 
+Priority Queue
+-This uses binary heaps
+-Each element has Priority
+- Operations are performed based on Priority
+
+Trie
+-Specialized trees used in searching especially for dictionary words by their characters
+
+
+Graph
+-Directed Graph
+    -one way
+-Undirected Graph
+    -both ways 
+
+-Weighted Graph
+
+-Unweighted Graph 
+
+
+-Cyclic
+
+-Acyclic
+
+Edge List
+
+Adjacent List
+
+Adjacent Matrix

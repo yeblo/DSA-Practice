@@ -60,5 +60,4 @@ return true
 
 
 
-https://leetcode.com/problems/asteroid-collision/solution/
-https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/
+

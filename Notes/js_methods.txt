@@ -2,6 +2,8 @@ Methods i should be familiar with
 
 Array
     - Some - returns boolean based on the filter i assign to it. Great for comparing two arrays.
+    -of shows the item/element
+    -in shows the index
     
 
 String
@@ -11,4 +13,6 @@ String
         - Number (number.isInteger())to check if is a number
         - !isNaN (checks if it is not a number)
         - isfinite
-
+Stacks
+    -always check to see if your stack is empty
+    -

@@ -9,3 +9,9 @@ Things to note
 * using primes and reduce for multiplcation when dealing with group anagrams
 * Object.values(values) in js
 * is sorting required?
+
+
+Depth first search is usually good to check to see if something exists
+Breadth first search is good for shortest path
+    -Bellman for shortest path problems with negative weight
+    -Dijstrak for shortest path w/o negative weight

@@ -7,7 +7,7 @@
         this.array = new Array(this.k)
         this.head = -1
         this.tail = -1
-        this.size = 0
+        this.size = 0 //very important!!!!
         
     }
     enQueue(value){

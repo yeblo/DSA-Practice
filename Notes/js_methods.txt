@@ -16,3 +16,7 @@ String
 Stacks
     -always check to see if your stack is empty
     -
+
+
+https://leetcode.com/problems/next-greater-element-ii/
+https://leetcode.com/problems/number-of-recent-calls/

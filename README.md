@@ -15,3 +15,10 @@ Depth first search is usually good to check to see if something exists
 Breadth first search is good for shortest path
     -Bellman for shortest path problems with negative weight
     -Dijstrak for shortest path w/o negative weight
+
+
+
+Linked List
+    Pattern
+        - Slow and fast pointer approach
+        - such that fast pointer moves twice as fast as the slow pointer

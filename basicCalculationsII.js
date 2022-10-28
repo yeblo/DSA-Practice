@@ -17,3 +17,10 @@ https://leetcode.com/problems/swap-nodes-in-pairs/
 https://leetcode.com/problems/remove-linked-list-elements/
 https://leetcode.com/problems/plus-one-linked-list/
 https://leetcode.com/problems/rotate-list/
+
+
+
+https://leetcode.com/problems/fixed-point/
+
+https://leetcode.com/problems/sqrtx/
+https://leetcode.com/problems/peak-index-in-a-mountain-array/

@@ -21,6 +21,5 @@ https://leetcode.com/problems/rotate-list/
 
 
 https://leetcode.com/problems/fixed-point/
-
 https://leetcode.com/problems/sqrtx/
 https://leetcode.com/problems/peak-index-in-a-mountain-array/

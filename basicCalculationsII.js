@@ -23,3 +23,15 @@ https://leetcode.com/problems/rotate-list/
 https://leetcode.com/problems/fixed-point/
 https://leetcode.com/problems/sqrtx/
 https://leetcode.com/problems/peak-index-in-a-mountain-array/
+
+
+
+https://leetcode.com/problems/search-a-2d-matrix/
+https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
+https://leetcode.com/problems/arranging-coins/
+
+
+https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
+https://leetcode.com/problems/binary-tree-preorder-traversal/
+https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
+https://leetcode.com/problems/binary-tree-level-order-traversal/

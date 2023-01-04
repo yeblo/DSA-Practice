@@ -35,3 +35,25 @@ https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
 https://leetcode.com/problems/binary-tree-preorder-traversal/
 https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
 https://leetcode.com/problems/binary-tree-level-order-traversal/
+
+
+https://leetcode.com/problems/symmetric-tree/
+https://leetcode.com/problems/subtree-of-another-tree/
+
+https://leetcode.com/problems/diameter-of-binary-tree/
+
+
+// recurrence relation
+// invert a binary Tree
+// same depth
+
+
+https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
+https://leetcode.com/problems/binary-tree-vertical-order-traversal/ 
+https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/
+https://leetcode.com/problems/search-in-a-binary-search-tree/
+
+
+https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
+https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
+https://leetcode.com/problems/closest-binary-search-tree-value/
